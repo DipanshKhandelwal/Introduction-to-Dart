@@ -95,3 +95,10 @@ bool isEven(int num) => num%2==0;
 
 var result = isEven(20);
 ```
+
+### Comments
+```Dart
+// One line comment.
+
+/* Multi line comment. */
+```
