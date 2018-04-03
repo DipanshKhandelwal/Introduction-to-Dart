@@ -77,3 +77,21 @@ while (i < 10) {
     print(i++);
 }
 ```
+
+### Functions
+```Dart
+int fibonacci(int n) {
+	if (n == 0 || n == 1) {
+		return n;
+	}
+	return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+var result = fibonacci(20);
+```
+
+```Dart
+bool isEven(int num) => num%2==0;
+
+var result = isEven(20);
+```
