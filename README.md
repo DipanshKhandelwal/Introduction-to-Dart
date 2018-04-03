@@ -1,4 +1,8 @@
 # Introduction to Dart
+An introduction to [Dart Programming Language](https://www.dartlang.org/).
+Test your code here at [DartPad](https://dartpad.dartlang.org/).
+
+<img src="Logo.png">
 
 ### Hello World
 ```Dart
@@ -16,7 +20,6 @@ The Dart language has special support for the following types:
 * maps
 * runes (for expressing Unicode characters in a string)
 * symbols
-
 
 #### String
 ```Dart
