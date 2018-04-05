@@ -121,6 +121,8 @@ import '../lib/samples/myfile.dart';
 ```
 
 ### Object Oriented Approach
+#### [Try online on Dartpad :heavy_check_mark:](https://dartpad.dartlang.org/f7fd190be3cd901d620c2b3aed5bab54)
+#### [Open gist :heavy_check_mark:](https://gist.github.com/DipanshKhandelwal/f7fd190be3cd901d620c2b3aed5bab54)
 ```Dart
 import 'dart:math';
 
