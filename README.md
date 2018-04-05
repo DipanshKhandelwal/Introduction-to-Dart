@@ -119,3 +119,43 @@ import 'package:test/test.dart';
 import 'path/to/my_other_file.dart';
 import '../lib/samples/myfile.dart';
 ```
+
+### Object Oriented Approach
+```Dart
+import 'dart:math';
+
+abstract class Shape {
+    List<double> sides;
+    double perimeter;
+  
+    Shape(this.sides) {
+        this.perimeter = this.sides.reduce((a, b) => a + b);
+    }
+
+    double area(); 
+}
+
+class Triangle extends Shape {
+    Triangle(double a, double b, double c) : super([a,b,c]);
+
+    double area() {
+        double s = this.perimeter/2;
+        return sqrt(s * (s - sides[0]) * (s - sides[1]) * (s - sides[2]));
+    }
+}
+
+class Rectangle extends Shape {
+    Rectangle(double a, double b) : super([a,b]);
+
+    double area() {
+        return sides[0]*sides[1];
+    }
+}
+
+void main() {
+    Triangle triangle = new Triangle(3.0, 4.0, 5.0);
+    Rectangle rectangle = new Rectangle(4.0, 5.0);
+    print('Area of triangle is ${triangle.area()}, its perimeter is ${triangle.perimeter}');
+    print('Area of rectangle is ${rectangle.area()}, its perimeter is ${rectangle.perimeter}');
+}
+```
