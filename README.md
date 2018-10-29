@@ -41,6 +41,16 @@ var height = 5.8;
 var myList = ['Item1', 'Item2', 'Item3', 'Item4'];
 ```
 
+#### Map
+```Dart
+var gifts = {
+  // Key:    Value
+  'first': 'partridge',
+  'second': 'turtledoves',
+  'fifth': 'golden rings'
+};
+```
+
 #### Object
 ```Dart
 var post = {
