@@ -109,6 +109,14 @@ bool isEven(int num) => num%2==0;
 var result = isEven(20);
 ```
 
+#### Anonymous Functions
+```Dart
+var list = ['apples', 'bananas', 'oranges'];
+list.forEach((item) {
+   print('${list.indexOf(item)}: $item');
+ });
+```
+
 ### Comments
 ```Dart
 // One line comment.
